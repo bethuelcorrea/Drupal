@@ -1,0 +1,17 @@
+ERROR: TRUSTED HOST SETTINGS
+
+-Add this to the end of settings.php IN THE SITE FOLDER"LIVE SITE".
+ 
+$settings['trusted_host_patterns'] = array(
+     '^www\.example\.com$',
+     '^example\.com$',
+   );
+
+-----------------------------------------------------------------------
+ERROR: TRUSTED HOST SETTINGS
+
+-Add this to the end of settings.php IN THE SITE FOLDER"lOCALSITE".
+ 
+$settings['trusted_host_patterns'] = array(
+    '^localhost$',
+   );
