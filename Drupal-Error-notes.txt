@@ -1,3 +1,15 @@
+How to Fix PHP extensions disabled error during Drupal 9
+-uncomment->      ;extension=gd
+-Change it to->    extension=gd
+-Restart the server and refresh.
+
+---------------------------------------
+PHP OPCODE CACHING error
+
+find-> in-> php.ini -> [opcache]
+-The line above it add->  zend_extension=php_opcache.dll
+-restart the server.
+---------------------------------------------------------------
 ERROR: TRUSTED HOST SETTINGS
 
 -Add this to the end of settings.php IN THE SITE FOLDER"LIVE SITE".
